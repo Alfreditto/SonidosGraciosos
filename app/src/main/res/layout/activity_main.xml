@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btnKrab"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="MrKrab"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnSpongeBob"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="SpongeBob"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnSquidward"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Squidward"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnMaggie"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Maggie"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnCositas"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Se vienen cositas" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
